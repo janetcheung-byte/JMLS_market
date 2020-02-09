@@ -1,5 +1,5 @@
 // @TODO: Update this address to match your deployed JMLSMarket contract!
-const contractAddress = "0x1A8152Bfaa68478048D32cEbB12d3988daF2ACa4";
+const contractAddress = "0xD6Ad2b843c9C092223d00cD8F96BE6d5F13d5778";
 
 const dApp = {
   ethEnabled: function() {
