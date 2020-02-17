@@ -1,4 +1,6 @@
-#  JMLS Market
+#  JMLS Market Group
+
+# JMLS Team: Janet Cheung, Michana Pubien, Sandra Nova, Liana Pilarte
 
 ## Summary
 
