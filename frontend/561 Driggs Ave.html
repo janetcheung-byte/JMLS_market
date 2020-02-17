@@ -1,0 +1,71 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.2.3/milligram.min.css">
+
+
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- Project Section -->
+    <div class="w3-container w3-padding-32" id="projects">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+    </div>
+
+
+    <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">561 Driggs Ave</div>
+                <img src="https://github.com/janetcheung-byte/JMLS_market/blob/master/Images/6363.22.PNG?raw=true" alt="House" style="width:100%">
+                <script type="text/javascript">
+                    // text
+
+
+
+
+                    // Popup window code
+                    function newPopup(url) {
+                        popupWindow = window.open(
+                            url, 'popUpWindow', 'height=300,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+                    }
+                </script>
+                <p>
+                    <a href="4 rooms , 1 bath ('');"></a>
+                </p>
+
+
+
+
+                <div class="column column-33">
+                    <label>From Account</label>
+                    <select id="bidAccount">
+                  </select>
+                </div>
+                <div class="column column-25">
+                    <label>Bid Amount</label>
+                    <input type="number" id="bidAmount" placeholder="Bid Amount">
+                </div>
+                <div class="column column-25"></div>
+                <label><br /></label>
+                <button id="makeBid">Bid</button>
+            </div>
+        </div>
+
+        <hr />
+
+        <button id="endAuction" disabled="disabled">End Auction</button>
+
+        <br /><br />
+
+        <div id="response"></div>
+
+        <script type="text/javascript" src="ethereumjs-testrpc.js"></script>
+        <script type="text/javascript" src="ethjs.js"></script>
+        <script type="text/javascript">
+            var eth = new Eth(TestRPC.provider());
+            var el = function(id) {
+                return document.querySelector(id);
+            };
