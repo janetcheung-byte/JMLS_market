@@ -35,37 +35,58 @@
                 <p>
                     <a href="http://127.0.0.1:5500/prospectpark.html" target="_self"> </a>
                 </p>
+                <div class="w3-content w3-padding" style="max-width:1564px">
+
+                    <!-- Description Section -->
+                    <div class="w3-container w3-padding-32" id="Description">
+
+                        <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16">Description</h4>
+                        <p>Property Type: Single Family Home
+                            <</p>
+
+                                <p> Occupancy Status: Occupied</p>
+
+                                <p> Bed: 4 </p>
+
+                                <p> Bath: 4 </p>
+
+                                <p> Sqft: 3,380 sqft </p>
+
+                                <p> Year Built: 1974</p>
+                    </div>
 
 
 
 
-                <div class="column column-33">
-                    <label>From Account</label>
-                    <select id="bidAccount">
+
+
+                    <div class="column column-33">
+                        <label>From Account</label>
+                        <select id="bidAccount">
                   </select>
+                    </div>
+                    <div class="column column-25">
+                        <label>Bid Amount</label>
+                        <input type="number" id="bidAmount" placeholder="Bid Amount">
+                    </div>
+                    <div class="column column-25"></div>
+                    <label><br /></label>
+                    <button id="makeBid">Bid</button>
                 </div>
-                <div class="column column-25">
-                    <label>Bid Amount</label>
-                    <input type="number" id="bidAmount" placeholder="Bid Amount">
-                </div>
-                <div class="column column-25"></div>
-                <label><br /></label>
-                <button id="makeBid">Bid</button>
             </div>
-        </div>
 
-        <hr />
+            <hr />
 
-        <button id="endAuction" disabled="disabled">End Auction</button>
+            <button id="endAuction">End Auction</button>
 
-        <br /><br />
+            <br /><br />
 
-        <div id="response"></div>
+            <div id="response"></div>
 
-        <script type="text/javascript" src="ethereumjs-testrpc.js"></script>
-        <script type="text/javascript" src="ethjs.js"></script>
-        <script type="text/javascript">
-            var eth = new Eth(TestRPC.provider());
-            var el = function(id) {
-                return document.querySelector(id);
-            };
+            <script type="text/javascript" src="ethereumjs-testrpc.js"></script>
+            <script type="text/javascript" src="ethjs.js"></script>
+            <script type="text/javascript">
+                var eth = new Eth(TestRPC.provider());
+                var el = function(id) {
+                    return document.querySelector(id);
+                };
