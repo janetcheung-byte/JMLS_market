@@ -1,4 +1,5 @@
 #**JMLS** **Market**
+Team: Janet Cheung, Michana Pubien, Sandra Nova, Liana Pilarte
 
 JMLS Market is an opensource application for New York real estate market run on blockchain technology.
 
