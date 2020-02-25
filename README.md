@@ -10,7 +10,7 @@ This market serves to raise funds for the JMLS real estate development project b
 
 Real Estate sample data was gathered from NYC.gov. Using the Block and Lot data we found, we tokenized the properties to the blockchain
 
-We then created a Smart Contract using Solidity.
+We created a auction Smart Contract using Solidity. Then we run our real estate auction smart contract on our private blockchain network called JMLS.
 
 Our private blockchain network is run on a proof of authority algorithm.
 
