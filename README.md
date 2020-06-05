@@ -18,4 +18,4 @@ The auctioning can be accessed by anyone via our frontend website.
 
 ### Demo App
 
-Click [here](frontend/index.html) to launch the JMLSMarket application.
+Click [here](https://janetcheung-byte.github.io/JMLS_market/) to launch the JMLSMarket application.
